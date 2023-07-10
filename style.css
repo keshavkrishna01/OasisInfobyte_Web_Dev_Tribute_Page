@@ -1,0 +1,91 @@
+
+        body {
+            background-color: black;
+        }
+
+        .mainbox {
+            display: flex;
+            display: block;
+            border-top: 2px solid rgb(231, 22, 231);
+            border-right: 2px solid rgb(18, 10, 133);
+            border-bottom: 2px solid rgba(245, 50, 24, 0.774);
+            border-left: 2px solid rgb(253, 238, 21);
+            border-radius: 50px;
+
+            margin: 0px 25%;
+        }
+
+        .first {
+            display: flex;
+            /* background-color: black; */
+            /* margin: 0px 0px 0px 0px; */
+            /* align-items: center; */
+            justify-content: center;
+        }
+
+        #title {
+            color: white;
+            margin-top: 100%;
+            margin-bottom: 50%;
+            font-size: larger;
+            justify-items: center;
+        }
+
+        .second #backg img {
+            /* height: 200px; */
+            border-top: 2px solid rgb(17, 245, 207);
+            border-right: 2px solid rgb(243, 52, 208);
+            border-left: 2px solid rgb(70, 30, 214);
+            border-bottom: 2px solid rgba(101, 237, 42, 0.774);
+            display: block;
+            /* margin: 0px 0%; */
+            margin-left: -2px;
+            padding: 0px;
+            width: 100%;
+            border-radius: 100px;
+            z-index: 1;
+        }
+
+        .three {
+            display: flex;
+            display: block;
+            border: 2px solid pink;
+
+            margin: 0px 25%;
+            padding: 9px;
+            width: 50%;
+            border-radius: 28px;
+        }
+
+        .bio {
+            display: flex;
+            margin-top: 10px;
+            color: brown;
+            justify-items: center;
+            justify-content: center;
+        }
+
+        .cont {
+            /* display: flex; */
+            /* display: block; */
+            font-size: larger;
+            align-items: center;
+            justify-content: center;
+            color: wheat;
+        }
+
+        .box {
+            color: white;
+            font-size: 1.2rem;
+        }
+
+        .copy {
+            display: flex;
+            display: block;
+            position: relative;
+            justify-content: center;
+            align-items: center;
+            margin-left: 40%;
+            color: white;
+
+        }
